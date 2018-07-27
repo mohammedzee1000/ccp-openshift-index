@@ -7,7 +7,7 @@ Projects:
     git-path: wget/
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     depends-on: centos/centos:latest
 
   - id: 2
@@ -18,7 +18,7 @@ Projects:
     git-path: demo
     target-file: Dockerfile.demo
     desired-tag: release
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     depends-on: centos/centos:latest
 
   - id: 3
@@ -29,7 +29,7 @@ Projects:
     git-path: /
     target-file: Dockerfile.centos
     desired-tag: latest
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     build-context: ./
     depends-on: centos/centos:latest
 
@@ -41,7 +41,7 @@ Projects:
     git-path: /
     target-file: Dockerfile.centos
     desired-tag: latest
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     build-context: ./
     depends-on: centos/centos:latest
 
@@ -53,7 +53,7 @@ Projects:
     git-path: /
     target-file: Dockerfile
     desired-tag: 92394f2
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     build-context: ./
     depends-on: centos/centos:7
 
@@ -65,7 +65,7 @@ Projects:
     git-path: /
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     build-context: ./
     depends-on: centos/centos:7
 
@@ -76,7 +76,7 @@ Projects:
     git-path: images/base
     git-branch: release-3.9
     target-file: Dockerfile
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     desired-tag: latest
     build-context: ./
     depends-on: openshift/origin-source:latest
@@ -88,7 +88,7 @@ Projects:
     git-path: images/source
     git-branch: 3.9_origin-source_cccp_yaml
     target-file: Dockerfile.pipeline
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     desired-tag: latest
     build-context: ./
     depends-on: centos/centos:latest
@@ -101,7 +101,7 @@ Projects:
     git-path: docker
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: shahdharmit@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     build-context: ./
     depends-on: null
 
@@ -113,7 +113,7 @@ Projects:
     git-path: /
     target-file: Dockerfile
     desired-tag: test
-    notify-email: bamachrn@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     depends-on: centos/centos:latest
     build-context: ./
     prebuild-script: pre-build.sh
@@ -127,6 +127,6 @@ Projects:
     git-path: /
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: shaikhnavid14@gmail.com
+    notify-email: mohammed.zee1000@gmail.com
     build-context: ./
     depends-on: null
